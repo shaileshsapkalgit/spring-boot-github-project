@@ -11,4 +11,9 @@ public class GitController
     {
         return "Hllow gitMembers...!!!";
     }
+    @GetMapping("/abc")
+    public  String getgreet()
+    {
+        return "Hllow sakshi...!!!";
+    }
 }
