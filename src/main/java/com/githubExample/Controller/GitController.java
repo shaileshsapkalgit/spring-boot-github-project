@@ -11,4 +11,10 @@ public class GitController
     {
         return "Hllow gitMembers...!!!";
     }
+
+    @GetMapping("/api")
+    public  String getMessagenew()
+    {
+        return "Hllow guys...!!!";
+    }
 }
